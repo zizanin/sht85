@@ -1,4 +1,3 @@
-
 # Modules
 import smbus
 import time
@@ -152,9 +151,3 @@ def dew_point(t,rh):
 
     dew_p = tn * (math.log(rh / 100.0) + (m * t) / (tn + t))/ (m - math.log(rh / 100.0) - m * t / (tn + t))
     return round(dew_p,4)
-
-
-
-
-
-
